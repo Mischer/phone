@@ -8,8 +8,12 @@
         <portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
         <init-param>
             <name>contextConfigLocation</name>
-            <value>/WEB-INF/applicationContext.xml</value>
+            <value>
+            	/WEB-INF/applicationContext.xml
+            	/WEB-INF/action-servlet.xml
+            </value>
         </init-param>
+        
         <expiration-cache>-1</expiration-cache>
         <supports>
             <mime-type>text/html</mime-type>

@@ -15,6 +15,7 @@ import org.springframework.web.bind.support.SessionStatus;
 
 @Controller
 @SessionAttributes("phone")
+@RequestMapping("EDIT")
 public class PhoneCreateController {
 
 	private PhoneDao phoneDao;

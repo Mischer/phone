@@ -18,8 +18,10 @@ public class Phone implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
+	
 	@Column(name="name")
 	private String name;
+	
 	@Column(name="phone")
 	private String phone;
 	
